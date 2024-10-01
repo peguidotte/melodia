@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 *,
 *::before,
 *::after {
@@ -1979,6 +1980,37 @@ textarea.form-control-lg {
 
 [data-bs-theme=dark] .navbar-toggler-icon {
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #DA3BBD, #000000);
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+.subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.subtext {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=styles.css.map */

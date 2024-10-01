@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins";
@@ -7,3 +9,42 @@
 @import "node_modules/bootstrap/scss/carousel";
 @import "node_modules/bootstrap/scss/nav";
 @import "node_modules/bootstrap/scss/navbar";
+
+$poppins: 'Poppins', sans-serif;
+$pink: #DA3BBD;
+$white: #fff;
+$lightblue: #0E2F8C;
+$regularblue: #062374;
+$darkblue: #020C27;
+$black: #000000;
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, $pink, $black);
+}
+
+.title{
+    font-family: $poppins;
+    font-weight: 700;
+    color: $white;
+}
+
+.subtitle{
+    font-family: $poppins;
+    font-weight: 600;
+}
+
+.text{
+    font-family: $poppins;
+    font-weight: 400;
+}
+
+.subtext{
+    font-family: $poppins;
+    font-weight: 300;
+}
