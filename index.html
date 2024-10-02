@@ -17,7 +17,7 @@
         <div class="container-fluid">
 
             <a class="navbar-brand ms-auto order-lg-1" href="#" id="music-icon">
-                <i class="fa-solid fa-music"></i>
+                <i class="fa-solid fa-music responsive-icon"></i>
             </a>
 
             <button class="navbar-toggler order-lg-2" type="button" data-bs-toggle="collapse"
@@ -29,19 +29,19 @@
             <div class="collapse navbar-collapse order-lg-3 px-2" id="navbarNav">
                 <ul class="navbar-nav ms-auto gap-3">
                     <li class="nav-item ">
-                        <a class="nav-link title" href="#inicio">Início</a>
+                        <a class="nav-link title responsive-text" href="#inicio">Início</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link title" href="#diferenciais">Diferenciais</a>
+                        <a class="nav-link title responsive-text" href="#diferenciais">Diferenciais</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link title" href="#como+usar">Como usar</a>
+                        <a class="nav-link title responsive-text" href="#como+usar">Como usar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link title" href="#avaliacoes">Avaliações</a>
+                        <a class="nav-link title responsive-text" href="#avaliacoes">Avaliações</a>
                     </li>
                     <li class="nav-item"></li>
-                    <a class="nav-link title" href="#contato">Contato</a>
+                    <a class="nav-link title responsive-text" href="#contato">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -50,47 +50,48 @@
 
     <main class="mt-3">
         <section class="d-flex flex-column gap-3 container-fluid" id="inicio">
-            <h1 class="title slogan px-4 ">Melodia: Sua Música, Sua Forma</h1>
+            <h1 class="title slogan px-4 responsive-h1 ">Melodia: Sua Música, Sua Forma</h1>
             <div class="d-flex justify-content-center flex-wrap gap-3 justify-content-md-around ">
                 <img src="assets/MusicNote-Icon.svg" alt="" class="col-md-2">
-                <video src="assets/App-Tutorial.mov" controls class="img-fluid rounded-4 col-md-6"
+                <video src="assets/App-Tutorial.mov" controls class="img-fluid rounded-4 col-md-6 col-lg-5"
                     poster="assets/Poster.jpg"></video>
             </div>
             <button class="btn-white mt-3 d-md-none">Ouça Agora!</button>
         </section>
         <section id="diferenciais">
             <div class="earth-container h-md-auto">
-                <div class="d-flex justify-content-center align-items-center">
-                <h2 class="darkblue">Venha para a melhor plataforma de música do mundo!</h2>
-                <button class="btn-white mt-3 d-none d-md-flex m-3" style="z-index: 2;">Ouça Agora!</button>
+                <div class="d-flex justify-content-center align-items-center mt-lg-5">
+                    <h1 class="darkblue mx-2" style="z-index: 2;">Venha para a melhor plataforma de música do mundo!</h1>
+                    <button class="btn-white mt-3 d-none d-md-flex m-3" style="z-index: 2;">Ouça Agora!</button>
                 </div>
                 <i class="fa-solid fa-earth-americas pink" style="opacity: 0.5; z-index: 1; width: 50%;"></i>
             </div>
-            <div class="d-flex flex-column flex-md-row justify-content-center align-items-center function-container mt-md-5">
-                <img src="assets/M-Phone.svg" class="img-phone" alt="App Melodia no celular">
-                <ul class="d-flex flex-column align-self-start align-self-md-center justify-content-center">
+            <div class="d-flex flex-column flex-md-row justify-content-center align-items-center function-container mt-5">
+                <img src="assets/M-Phone.svg" class="img-phone d-md-none d-sm-flex mt-5" alt="App Melodia no celular">
+                <img src="assets/D-Phone.svg" class="img-phone d-none d-md-flex mt-5 col-md-6 col-lg-4" alt="App Melodia no celular">
+                <ul class="d-flex flex-column align-self-start align-self-md-center justify-content-center l">
                     <li class="d-flex gap-2 align-items-baseline">
-                        <i class="fa-solid fa-volume-up pink"></i>
-                        <p class="text-white text">Qualidade de som superior</p>
+                        <i class="fa-solid fa-volume-up pink" style="font-size: 1.5rem;"></i>
+                        <p class="text-white text" style="font-size: 1rem;">Qualidade de som superior</p>
                     </li>
                     <li class="d-flex gap-2 align-items-baseline">
-                        <i class="fa-solid fa-plus-square pink"></i>
-                        <p class="text-white text">Playlists + personalizadas</p>
+                        <i class="fa-solid fa-plus-square pink" style="font-size: 1.5rem;"></i>
+                        <p class="text-white text" style="font-size: 1rem;">Playlists + personalizadas</p>
                     </li>
                     <li class="d-flex gap-2 align-items-baseline">
-                        <i class="fa-solid fa-microphone pink"></i>
-                        <p class="text-white text">Descubra novos artistas</p>
+                        <i class="fa-solid fa-microphone pink" style="font-size: 1.5rem;"></i>
+                        <p class="text-white text" style="font-size: 1rem;">Descubra novos artistas</p>
                     </li>
                     <li class="d-flex gap-2 align-items-baseline">
-                        <i class="fa-solid fa-th-large pink"></i>
-                        <p class="text-white text">Interface intuitiva</p>
+                        <i class="fa-solid fa-th-large pink" style="font-size: 1.5rem;"></i>
+                        <p class="text-white text" style="font-size: 1rem;">Interface intuitiva</p>
                     </li>
                 </ul>
             </div>
-        </section>
+        </section>        
     </main>
 
-    <aside id="tutorial" class="container mb-5 col-md-8">
+    <aside id="tutorial" class="    container mb-5 col-md-8 col-lg-6">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-interval="false">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -132,7 +133,7 @@
     </aside>
 
     <aside id="avaliacoes" class="pt-5">
-        <h2 class="title text-white avalia-title">Avaliações dos nossos Usuários</h2>
+        <h2 class="mt-md-5 title text-white avalia-title responsive-title">Avaliações dos nossos Usuários</h2>
         <div class="border-pink">
             <div class="p-3 px-4 d-flex gap-2 align-items-start">
                 <img src="assets/Profile-Ana.svg" alt="" class="col-md-2">
@@ -181,17 +182,17 @@
     </aside>
 
     <form class="container my-5 px-5 d-flex flex-column" id="contato">
-        <div class="form-group position-relative mb-3">
-            <label for="name" class="form-label text-white position-absolute">Nome</label>
-            <input type="text" class="form-control" id="name" placeholder="Seu nome">
+        <div class="mt-md-5 form-group position-relative mb-3">
+            <label for="name" class="form-label text-white position-absolute responsive-text">Nome</label>
+            <input type="text" class="form-control responsive-text" id="name" placeholder="Seu nome">
         </div>
         <div class="form-group position-relative mb-3">
-            <label for="email" class="form-label text-white position-absolute">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="seuemail@exemplo.com">
+            <label for="email" class="form-label text-white position-absolute responsive-text">Email</label>
+            <input type="email" class="form-control responsive-text" id="email" placeholder="seuemail@exemplo.com">
         </div>
         <div class="form-group position-relative mb-3">
-            <label for="message" class="form-label text-white position-absolute">Mensagem</label>
-            <textarea class="form-control" id="message" rows="4" placeholder="Sua mensagem"></textarea>
+            <label for="message" class="form-label text-white position-absolute responsive-text">Mensagem</label>
+            <textarea class="form-control responsive-text" id="message" rows="4" placeholder="Sua mensagem"></textarea>
         </div>
         <button type="submit" class="btn-white">Enviar</button>
     </form>
@@ -199,11 +200,11 @@
     <footer class="container-fluid d-flex flex-column justify-content-center align-items-center" id="footer">
         <div class="d-flex gap-5">
             <div class="d-flex gap-2">
-                <i class="fa-brands fa-instagram pink"></i>
-                <i class="fa-brands fa-whatsapp pink"></i>
-                <i class="fa-solid fa-envelope pink"></i>
+                <i class="fa-brands fa-instagram pink responsive-icon"></i>
+                <i class="fa-brands fa-whatsapp pink responsive-icon"></i>
+                <i class="fa-solid fa-envelope pink responsive-icon"></i>
             </div>
-            <p class="subtitle pink">Acesse o APP!</p>
+            <p class="subtitle pink responsive-title">Acesse o APP!</p>
         </div>
         <p class="text-white text-center">Política de Privacidade | Termos de Uso | Copyright © 2024 Melodia. Todos os
             direitos reservados.</p>
