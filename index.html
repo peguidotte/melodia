@@ -7,17 +7,199 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Melodia</title>
 </head>
-<body>
-    <h1 class="title">Titulo</h1>
-    <h2 class="subtitle">Subtitulo</h2>
-    <h3 class="text">Texto</h3>
-    <h4 class="subtext">Subtexto</h4>
 
+<body>
+
+    <nav class="navbar navbar-expand-lg px-lg-5 pt-lg-5">
+        <div class="container-fluid">
+
+            <a class="navbar-brand ms-auto order-lg-1" href="#" id="music-icon">
+                <i class="fa-solid fa-music"></i>
+            </a>
+
+            <button class="navbar-toggler order-lg-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars" id="menu-icon"></i>
+            </button>
+
+            <div class="collapse navbar-collapse order-lg-3 px-2" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-3">
+                    <li class="nav-item ">
+                        <a class="nav-link title" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link title" href="#diferenciais">Diferenciais</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link title" href="#como+usar">Como usar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link title" href="#avaliacoes">Avaliações</a>
+                    </li>
+                    <li class="nav-item"></li>
+                    <a class="nav-link title" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="mt-3">
+        <section class="d-flex flex-column gap-3 container-fluid" id="inicio">
+            <h1 class="title slogan px-4">Melodia: Sua Música, Sua Forma</h1>
+            <div class="d-flex justify-content-center flex-wrap gap-3">
+                <img src="assets/MusicNote-Icon.svg" alt="">
+                <video src="assets/App-Tutorial.mov" controls class="img-fluid rounded-4"
+                    poster="assets/Poster.jpg"></video>
+            </div>
+            <button class="btn-white mt-3">Ouça Agora!</button>
+        </section>
+        <section id="diferenciais">
+            <div class="earth-container">
+                <h2 class="darkblue">Venha para a melhor plataforma de música do mundo!</h2>
+                <i class="fa-solid fa-earth-americas pink" style="opacity: 0.5;"></i>
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-center function-container">
+                <img src="assets/M-Phone.svg" class="img-phone" alt="App Melodia no celular">
+                <ul class="d-flex flex-column align-self-start justify-content-center">
+                    <li class="d-flex gap-2 align-items-baseline">
+                        <i class="fa-solid fa-volume-up pink"></i>
+                        <p class="text-white text">Qualidade de som superior</p>
+                    </li>
+                    <li class="d-flex gap-2 align-items-baseline">
+                        <i class="fa-solid fa-plus-square pink"></i>
+                        <p class="text-white text">Playlists + personalizadas</p>
+                    </li>
+                    <li class="d-flex gap-2 align-items-baseline">
+                        <i class="fa-solid fa-microphone pink"></i>
+                        <p class="text-white text">Descubra novos artistas</p>
+                    </li>
+                    <li class="d-flex gap-2 align-items-baseline">
+                        <i class="fa-solid fa-th-large pink"></i>
+                        <p class="text-white text">Interface intuitiva</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <aside id="tutorial" class="container mb-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-interval="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner px-1">
+                <div class="carousel-item active">
+                    <img src="assets/cards/M-Cadastro.svg" class="d-block w-100" alt="Primeiramente, Cadastre-se">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/cards/M-Navegue.svg" class="d-block w-100" alt="Depois navegue">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/cards/M-Crie.svg" class="d-block w-100"
+                        alt="Escolha uma música, adicione-a a uma playlist">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/cards/M-Escute.svg" class="d-block w-100"
+                        alt="E agora desfrute do melhor da música">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next pink" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </aside>
+
+    <aside id="avaliacoes" class="pt-5">
+        <h2 class="title text-white avalia-title">Avaliações dos nossos Usuários</h2>
+        <div class="border-pink">
+            <div class="p-3 px-4 d-flex gap-2 align-items-start">
+                <img src="assets/Profile-Ana.svg" alt="">
+                <div>
+                    <div class="d-flex align-items-baseline gap-3">
+                        <h3 class="avalia-name subtitle text-white">Ana Costa</h3>
+                        <img src="assets/Stars.svg" alt="">
+                    </div>
+                    <p class="avalia-text subtext text-white">O Melodia transformou a minha forma de ouvir música! A
+                        plataforma é super intuitiva, e as playlists personalizadas são incríveis. Não consigo passar um
+                        dia sem usá-la.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="p-3 px-4 d-flex gap-2 align-items-start">
+                <img src="assets/Profile-Joao.svg" alt="">
+                <div>
+                    <div class="d-flex align-items-baseline gap-3">
+                        <h3 class="avalia-name subtitle text-white">João Oliveira</h3>
+                        <img src="assets/Stars.svg" alt="">
+                    </div>
+                    <p class="avalia-text subtext text-white">Finalmente encontrei um serviço de streaming que entende
+                        meu gosto musical. As sugestões de artistas novos e as playlists são sempre certeiras. Melodia é
+                        perfeito para quem ama descobrir músicas novas!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="border-pink">
+            <div class="p-3 px-4 d-flex gap-2 align-items-start">
+                <img src="assets/Profile-Mariana.svg" alt="">
+                <div>
+                    <div class="d-flex align-items-baseline gap-3">
+                        <h3 class="avalia-name subtitle text-white">Mariana Souza</h3>
+                        <img src="assets/Stars.svg" alt="">
+                    </div>
+                    <p class="avalia-text subtext text-white">Eu adoro o Melodia! A qualidade do som é impecável, e a
+                        interface é muito fácil de usar. Sem contar que posso ouvir minhas músicas favoritas mesmo sem
+                        conexão.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <form class="container my-5">
+        <div class="mb-3">
+            <label for="name" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="name" placeholder="Seu nome">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="seuemail@exemplo.com">
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Sua mensagem"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+    <footer class="container-fluid d-flex justify-content-center align-items-center">
+        <p class="text-white">Melodia 2024</p>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>

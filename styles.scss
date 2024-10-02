@@ -10,6 +10,8 @@
 @import "node_modules/bootstrap/scss/nav";
 @import "node_modules/bootstrap/scss/navbar";
 
+//Variavéis
+
 $poppins: 'Poppins', sans-serif;
 $pink: #DA3BBD;
 $white: #fff;
@@ -17,34 +19,163 @@ $lightblue: #0E2F8C;
 $regularblue: #062374;
 $darkblue: #020C27;
 $black: #000000;
+$btn-padding: 10px 50px;
+$btn-hover-padding: 12px 55px;
+
+//Padrões
 
 html, body {
-    height: 100%;
     margin: 0;
+    font-family: $poppins;
 }
 
 body {
-    min-height: 100vh;
+    min-height: 100%;
     background: linear-gradient(to bottom, $pink, $black);
 }
 
+li{
+    list-style: none;
+}
+
+.pink{
+    color: $pink;
+}
+
+.lightblue{
+    color: $lightblue;
+}
+
+.darkblue{
+    color: $darkblue;
+}
+
 .title{
-    font-family: $poppins;
     font-weight: 700;
     color: $white;
 }
 
 .subtitle{
-    font-family: $poppins;
     font-weight: 600;
 }
 
 .text{
-    font-family: $poppins;
     font-weight: 400;
 }
 
 .subtext{
-    font-family: $poppins;
     font-weight: 300;
+}
+
+.btn-white {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: $pink;
+    background-color: $white;
+    border: none;
+    border-radius: 30px;
+    padding: $btn-padding;
+    transition: 0.5s;
+    align-self: center;
+
+    &:hover {
+        padding: $btn-hover-padding;
+        border: 1px solid #DA3BBD;
+    }
+}
+
+//Estilizações
+
+.navbar-toggler {
+    border: none;
+    background: none;
+    box-shadow: none;
+    outline: none;
+
+    &:focus,
+    &:active {
+        border: none;
+        background: none;
+        box-shadow: none;
+        outline: none;
+    }
+}
+
+.slogan{
+    font-size: 3rem;
+}
+
+video{
+    width: 70%;
+}
+
+.earth-container{
+    position:relative;
+    overflow: hidden;
+    padding: 30px 0px;
+    h2 {
+        position: relative;
+        z-index:3;
+        font-size: 2rem;
+        margin-left: 20px;
+        width: 90%;
+    }
+    i {
+        position: absolute;
+        right:-10%;
+        top: 50%;
+        transform: translateY(-50%);
+        opacity: 0.5;
+        font-size: 10rem; 
+    }
+}
+
+.function-container{
+    transform: translate(0%, -22%); //Eixo X, Eixo Y
+    ul li i {
+        font-size: 1.5rem;
+    }
+    ul li p {
+        font-size: 1.25rem;
+    }
+}
+
+.img-phone{
+    z-index: 9999;
+}
+
+.carousel-inner{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -40px; // Ajuste o valor conforme necessário 
+    [data-bs-target] {
+        background-color: $pink;
+    }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(48%) sepia(100%) saturate(1000%) hue-rotate(290deg) brightness(100%) contrast(100%);
+}
+
+.border-pink{
+    border-top: 1px solid $pink;
+    border-bottom: 1px solid $pink;
+}
+
+.avalia-title{
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.avalia-name{
+    font-size: 1rem;
+}
+
+.avalia-text{
+    font-size: .6875rem;
 }
