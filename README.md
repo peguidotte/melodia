@@ -1,4 +1,6 @@
-# App Melodia
+<img src="/assets/fiapteste.PNG" alt="foto de logo readme" style="width: 100%;">
+
+## App Melodia
 
 ## Descrição do Projeto
 
