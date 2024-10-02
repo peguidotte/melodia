@@ -50,22 +50,25 @@
 
     <main class="mt-3">
         <section class="d-flex flex-column gap-3 container-fluid" id="inicio">
-            <h1 class="title slogan px-4">Melodia: Sua Música, Sua Forma</h1>
-            <div class="d-flex justify-content-center flex-wrap gap-3">
-                <img src="assets/MusicNote-Icon.svg" alt="">
-                <video src="assets/App-Tutorial.mov" controls class="img-fluid rounded-4"
+            <h1 class="title slogan px-4 ">Melodia: Sua Música, Sua Forma</h1>
+            <div class="d-flex justify-content-center flex-wrap gap-3 justify-content-md-around ">
+                <img src="assets/MusicNote-Icon.svg" alt="" class="col-md-2">
+                <video src="assets/App-Tutorial.mov" controls class="img-fluid rounded-4 col-md-6"
                     poster="assets/Poster.jpg"></video>
             </div>
-            <button class="btn-white mt-3">Ouça Agora!</button>
+            <button class="btn-white mt-3 d-md-none">Ouça Agora!</button>
         </section>
         <section id="diferenciais">
-            <div class="earth-container">
+            <div class="earth-container h-md-auto">
+                <div class="d-flex justify-content-center align-items-center">
                 <h2 class="darkblue">Venha para a melhor plataforma de música do mundo!</h2>
-                <i class="fa-solid fa-earth-americas pink" style="opacity: 0.5;"></i>
+                <button class="btn-white mt-3 d-none d-md-flex m-3" style="z-index: 2;">Ouça Agora!</button>
+                </div>
+                <i class="fa-solid fa-earth-americas pink" style="opacity: 0.5; z-index: 1; width: 50%;"></i>
             </div>
-            <div class="d-flex flex-column justify-content-center align-items-center function-container">
+            <div class="d-flex flex-column flex-md-row justify-content-center align-items-center function-container mt-md-5">
                 <img src="assets/M-Phone.svg" class="img-phone" alt="App Melodia no celular">
-                <ul class="d-flex flex-column align-self-start justify-content-center">
+                <ul class="d-flex flex-column align-self-start align-self-md-center justify-content-center">
                     <li class="d-flex gap-2 align-items-baseline">
                         <i class="fa-solid fa-volume-up pink"></i>
                         <p class="text-white text">Qualidade de som superior</p>
@@ -87,7 +90,7 @@
         </section>
     </main>
 
-    <aside id="tutorial" class="container mb-5">
+    <aside id="tutorial" class="container mb-5 col-md-8">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-interval="false">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -99,18 +102,18 @@
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
                     aria-label="Slide 4"></button>
             </div>
-            <div class="carousel-inner px-1">
-                <div class="carousel-item active">
+            <div class="carousel-inner px-1 ">
+                <div class="carousel-item active p-2">
                     <img src="assets/cards/M-Cadastro.svg" class="d-block w-100" alt="Primeiramente, Cadastre-se">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item p-2">
                     <img src="assets/cards/M-Navegue.svg" class="d-block w-100" alt="Depois navegue">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item p-2">
                     <img src="assets/cards/M-Crie.svg" class="d-block w-100"
                         alt="Escolha uma música, adicione-a a uma playlist">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item p-2">
                     <img src="assets/cards/M-Escute.svg" class="d-block w-100"
                         alt="E agora desfrute do melhor da música">
                 </div>
@@ -132,13 +135,13 @@
         <h2 class="title text-white avalia-title">Avaliações dos nossos Usuários</h2>
         <div class="border-pink">
             <div class="p-3 px-4 d-flex gap-2 align-items-start">
-                <img src="assets/Profile-Ana.svg" alt="">
+                <img src="assets/Profile-Ana.svg" alt="" class="col-md-2">
                 <div>
                     <div class="d-flex align-items-baseline gap-3">
-                        <h3 class="avalia-name subtitle text-white">Ana Costa</h3>
-                        <img src="assets/Stars.svg" alt="">
+                        <h3 class="avalia-name subtitle text-white responsive-title">Ana Costa</h3>
+                        <img src="assets/Stars.svg" alt="" >
                     </div>
-                    <p class="avalia-text subtext text-white">O Melodia transformou a minha forma de ouvir música! A
+                    <p class="avalia-text subtext text-white responsive-text">O Melodia transformou a minha forma de ouvir música! A
                         plataforma é super intuitiva, e as playlists personalizadas são incríveis. Não consigo passar um
                         dia sem usá-la.
                     </p>
@@ -147,13 +150,13 @@
         </div>
         <div>
             <div class="p-3 px-4 d-flex gap-2 align-items-start">
-                <img src="assets/Profile-Joao.svg" alt="">
+                <img src="assets/Profile-Joao.svg" alt="" class="col-md-2">
                 <div>
                     <div class="d-flex align-items-baseline gap-3">
-                        <h3 class="avalia-name subtitle text-white">João Oliveira</h3>
+                        <h3 class="avalia-name subtitle text-white responsive-title">João Oliveira</h3>
                         <img src="assets/Stars.svg" alt="">
                     </div>
-                    <p class="avalia-text subtext text-white">Finalmente encontrei um serviço de streaming que entende
+                    <p class="avalia-text subtext text-white responsive-text">Finalmente encontrei um serviço de streaming que entende
                         meu gosto musical. As sugestões de artistas novos e as playlists são sempre certeiras. Melodia é
                         perfeito para quem ama descobrir músicas novas!
                     </p>
@@ -162,13 +165,13 @@
         </div>
         <div class="border-pink">
             <div class="p-3 px-4 d-flex gap-2 align-items-start">
-                <img src="assets/Profile-Mariana.svg" alt="">
+                <img src="assets/Profile-Mariana.svg" alt="" class="col-md-2">
                 <div>
                     <div class="d-flex align-items-baseline gap-3">
-                        <h3 class="avalia-name subtitle text-white">Mariana Souza</h3>
+                        <h3 class="avalia-name subtitle text-white responsive-title">Mariana Souza</h3>
                         <img src="assets/Stars.svg" alt="">
                     </div>
-                    <p class="avalia-text subtext text-white">Eu adoro o Melodia! A qualidade do som é impecável, e a
+                    <p class="avalia-text subtext text-white responsive-text">Eu adoro o Melodia! A qualidade do som é impecável, e a
                         interface é muito fácil de usar. Sem contar que posso ouvir minhas músicas favoritas mesmo sem
                         conexão.
                     </p>
