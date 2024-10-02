@@ -180,29 +180,38 @@
         </div>
     </aside>
 
-    <form class="container my-5">
-        <div class="mb-3">
-            <label for="name" class="form-label">Nome</label>
+    <form class="container my-5 px-5 d-flex flex-column" id="contato">
+        <div class="form-group position-relative mb-3">
+            <label for="name" class="form-label text-white position-absolute">Nome</label>
             <input type="text" class="form-control" id="name" placeholder="Seu nome">
         </div>
-        <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
+        <div class="form-group position-relative mb-3">
+            <label for="email" class="form-label text-white position-absolute">Email</label>
             <input type="email" class="form-control" id="email" placeholder="seuemail@exemplo.com">
         </div>
-        <div class="mb-3">
-            <label for="message" class="form-label">Mensagem</label>
+        <div class="form-group position-relative mb-3">
+            <label for="message" class="form-label text-white position-absolute">Mensagem</label>
             <textarea class="form-control" id="message" rows="4" placeholder="Sua mensagem"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="submit" class="btn-white">Enviar</button>
     </form>
 
-    <footer class="container-fluid d-flex justify-content-center align-items-center">
-        <p class="text-white">Melodia 2024</p>
+    <footer class="container-fluid d-flex flex-column justify-content-center align-items-center" id="footer">
+        <div class="d-flex gap-5">
+            <div class="d-flex gap-2">
+                <i class="fa-brands fa-instagram pink"></i>
+                <i class="fa-brands fa-whatsapp pink"></i>
+                <i class="fa-solid fa-envelope pink"></i>
+            </div>
+            <p class="subtitle pink">Acesse o APP!</p>
+        </div>
+        <p class="text-white text-center">Política de Privacidade | Termos de Uso | Copyright © 2024 Melodia. Todos os
+            direitos reservados.</p>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
