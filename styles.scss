@@ -302,6 +302,32 @@ footer{
 //
 
 @media (min-width: 576px) {
+    .responsive-icon-music {
+        font-size: 30px; /* Tamanho maior para telas pequenas e acima */
+    }
+}
+
+@media (min-width: 768px) {
+    .responsive-icon-music {
+        font-size: 40px; /* Tamanho maior para telas médias e acima */
+    }
+}
+
+@media (min-width: 992px) {
+    .responsive-icon-music {
+        font-size: 50px; /* Tamanho maior para telas grandes e acima */
+    }
+}
+
+@media (min-width: 1200px) {
+    .responsive-icon-music {
+        font-size: 60px; /* Tamanho maior para telas extra grandes e acima */
+    }
+}
+
+//
+
+@media (min-width: 576px) {
     .responsive-h1 {
         font-size: 50px; /* Tamanho maior para telas pequenas e acima */
     }
@@ -342,7 +368,7 @@ footer{
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1080px) {
     .function-container i {
         font-size: 5rem;
     }
