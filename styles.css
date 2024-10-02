@@ -2041,7 +2041,10 @@ li {
 }
 
 nav {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para destacar a navbar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  backdrop-filter: blur(8px);
+  transition: top 0.3s;
 }
 
 .navbar-toggler {
@@ -2055,6 +2058,10 @@ nav {
   background: none;
   box-shadow: none;
   outline: none;
+}
+
+main {
+  padding-top: 70px;
 }
 
 .slogan {
