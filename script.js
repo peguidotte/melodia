@@ -13,10 +13,10 @@ btnMusica.addEventListener('click', (e) => {
     e.preventDefault();
     if (audio.paused) {
         audio.play();
-        btnMusica.innerHTML = '<i class="fa-solid fa-pause responsive-icon-music"></i>';
+        btnMusica.innerHTML = '<i class="fa-solid fa-pause"></i>';
     } else {
         audio.pause();
-        btnMusica.innerHTML = '<i class="fa-solid fa-music responsive-icon-music"></i>';
+        btnMusica.innerHTML = '<i class="fa-solid fa-music"></i>';
     }
 })
 
