@@ -43,7 +43,7 @@ As tecnologias e ferramentas usadas no desenvolvimento da landing page incluem:
                 <a href="https://www.linkedin.com/in/gabriel-vara" target="_blank" style="font-style: italic">  /LinkedIn <i class="fab fa-linkedin"></i></a></h3>
                 <h3><img src="https://avatars.githubusercontent.com/u/158527393?v=4" width="50px" alt="Leonardo Correa Icon">  Leonardo Correa RM555573<a href="https://github.com/leocorreamello" target="_blank" style="font-style: italic">  /GitHub <i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/leocorreamello/" target="_blank" style="font-style: italic">  /LinkedIn <i class="fab fa-linkedin"></i></a></h3>
-        <h3> Herbert de Souza Vilela 555701</h3>
-        <h3> Gabriel Ferreira Flora Carvalheiro 556476</h3>
+        <h3> Herbert de Souza Vilela RM555701</h3>
+        <h3> Gabriel Ferreira Flora Carvalheiro RM556476</h3>
     </article>
 </section>
