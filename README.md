@@ -1,6 +1,7 @@
 <img src="/assets/fiapteste.PNG" alt="foto de logo readme" style="width: 100%;">
 
 ## App Melodia
+ <a href="https://melodia-neon.vercel.app/" target="_blank" style="font-style: italic">Deploy</a>
 
 ## Descrição do Projeto
 
