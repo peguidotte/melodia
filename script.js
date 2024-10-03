@@ -50,7 +50,7 @@ function adjustCarouselImages() {
     const images = {
         mobile: [
             "assets/cards/M-Cadastro.svg",
-            "assets/cards/M-Navegue=.svg",
+            "assets/cards/M-Navegue.svg",
             "assets/cards/M-Crie.svg",
             "assets/cards/M-Escute.svg"
         ],
