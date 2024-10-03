@@ -28,10 +28,10 @@ As tecnologias e ferramentas usadas no desenvolvimento da landing page incluem:
 - **HTML5:** Estruturação da página.
 - **CSS3:** Estilização avançada da página.
 - **Sass:** Pré-processador CSS para organização e reutilização de código.
-- **Bootstrap:** Framework CSS para desenvolvimento de páginas responsivas.
+- **Bootstrap:** Framework CSS para desenvolvimento de páginas responsivas e funcionalidades.
 - **Font Awesome:** Ícones para melhor visualização e navegação.
 - **Google Fonts:** Fontes personalizadas para uma tipografia moderna.
-- **Biblioteca JavaScript:** Implementação de animações e interações (opcional).
+- **JavaScript:** Para funcionalidades específicas.
 
 <section id="integrantes">
     <article>
